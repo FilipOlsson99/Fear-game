@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400002}
+  - component: {fileID: 11900000}
+  - component: {fileID: 48363195}
+  m_Layer: 0
+  m_Name: BlobLightProjector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0.7069834, y: 0, z: 0, w: 0.7072302}
+  m_LocalPosition: {x: 0.59007, y: 1.9746, z: -1.9179}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 89.98, y: 0, z: 0}
+--- !u!119 &11900000
+Projector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_NearClipPlane: 0.1
+  m_FarClipPlane: 50
+  m_FieldOfView: 30
+  m_AspectRatio: 1
+  m_Orthographic: 0
+  m_OrthographicSize: 6.38
+  m_Material: {fileID: 2100000, guid: e30ff3588e719f34bbf0c66f22d97487, type: 2}
+  m_IgnoreLayers:
+    serializedVersion: 2
+    m_Bits: 0
+--- !u!114 &48363195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9b31b5c7a0a6544a6e0541fec94d6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fps: 5
+  frames:
+  - {fileID: 2800000, guid: 568f63c705163a54faf4cd542c4f4a42, type: 3}
+  - {fileID: 2800000, guid: 6ea4278ab31ad7641b2e7ec35b264e1c, type: 3}
+  - {fileID: 2800000, guid: 4e692646b40391143bea1dda408aa6e1, type: 3}
+  - {fileID: 2800000, guid: af50801c4c4edfa429522f5a9f912b6e, type: 3}
+  - {fileID: 2800000, guid: 24dd62177bac4574e8680772fc50f81a, type: 3}
+  - {fileID: 2800000, guid: fbf0775c555ab6541958586a519fa6d6, type: 3}
+  - {fileID: 2800000, guid: 00c71fe6cb1a3e44b9d183b4daa433df, type: 3}
+  - {fileID: 2800000, guid: 262dbbb6ecb90b94e977daf837e1d41a, type: 3}
+  - {fileID: 2800000, guid: 1c3b64c6167570f4eac1219504d7e078, type: 3}
+  - {fileID: 2800000, guid: 87a7f220867adca43a4bec540f2f095a, type: 3}
+  - {fileID: 2800000, guid: ec040ba5cc9b9bb4a86c746ca9521f30, type: 3}
+  - {fileID: 2800000, guid: d0d7ffeb5214a3c4182107db5a65604c, type: 3}
+  - {fileID: 2800000, guid: 7aa8ec2af041abb45a463c8f20209613, type: 3}
+  - {fileID: 2800000, guid: 4fc2805cc8c8ec4449cb2bc868f55175, type: 3}
+  - {fileID: 2800000, guid: 8172e1475765d7c4a94d898ff7add9ab, type: 3}
+  - {fileID: 2800000, guid: bd54353ec7d54a34d8586e929f4845d1, type: 3}
+  - {fileID: 2800000, guid: 473002d6438cdf944b95223b864f3e46, type: 3}
+  - {fileID: 2800000, guid: b481de691dee80841858239e0c4aa062, type: 3}
+  - {fileID: 2800000, guid: 400e8d68a3a7bf2479a210d3cb169802, type: 3}
+  - {fileID: 2800000, guid: 671c929509c60114286ee8c2df418e1e, type: 3}
+  - {fileID: 2800000, guid: c5de58eed31a81846b43f78178f7975f, type: 3}
+  - {fileID: 2800000, guid: a6c2c533343808f4bb27a1a05e3d8770, type: 3}
+  - {fileID: 2800000, guid: c62a53143e0c17d44ad53bf4f4d36713, type: 3}
+  - {fileID: 2800000, guid: 68bc20995541dfd49ad2a48532365dda, type: 3}
+  - {fileID: 2800000, guid: 08cafdcb94cfb954db0975d432876e99, type: 3}
+  - {fileID: 2800000, guid: b88d0489afa1b9b4c833f6bd410557bb, type: 3}
+  - {fileID: 2800000, guid: a23e56d7114b86a489923eba24cc2e3d, type: 3}
+  - {fileID: 2800000, guid: 57eef2c455f9aae47ab1b32f3209233b, type: 3}
+  - {fileID: 2800000, guid: f74942dc60b77b04fbe647ce3e5845ce, type: 3}
+  - {fileID: 2800000, guid: f02465b5cc63b78449fdb21c138e63ac, type: 3}
+  - {fileID: 2800000, guid: c4cb9d95ee6c0104b824495e8ede596f, type: 3}
