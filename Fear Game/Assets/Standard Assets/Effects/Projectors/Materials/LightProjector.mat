@@ -40,7 +40,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
+<<<<<<< Updated upstream
         m_Texture: {fileID: 2800000, guid: 60cf309dcd936d54b8db94e8864b29e8, type: 3}
+=======
+        m_Texture: {fileID: 2800000, guid: 5b2cd0e3f83bf1b49ab4b74f43bfe83f, type: 3}
+>>>>>>> Stashed changes
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
