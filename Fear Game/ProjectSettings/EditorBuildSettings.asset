@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Claustrophobia.unity
     guid: f1706674b07f0984d8bc2fc032aed666
+  - enabled: 1
+    path: Assets/Scenes/Thlasophobia.unity
+    guid: 2b2c3906cb24a0346b25c4b389433690
   m_configObjects: {}
